@@ -1,0 +1,163 @@
+/* Café Delight Theme */
+:root {
+  --bs-primary: #8B4513;
+  --bs-primary-rgb: 139, 69, 19;
+  --bs-secondary: #D2691E;
+  --bs-success: #28a745;
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+  --bs-info: #17a2b8;
+  --bs-light: #f8f9fa;
+  --bs-dark: #343a40;
+  --cafe-brown: #6F4E37;
+  --cafe-cream: #F5F5DC;
+  --cafe-gold: #DAA520;
+  --accent-color: #F4A460;
+}
+
+/* Global Bootstrap Overrides */
+.btn-primary, .bg-primary {
+  background-color: var(--bs-primary) !important;
+  border-color: var(--bs-primary) !important;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background-color: var(--cafe-brown) !important;
+  border-color: var(--cafe-brown) !important;
+}
+
+.btn-outline-primary {
+  color: var(--bs-primary) !important;
+  border-color: var(--bs-primary) !important;
+}
+
+.btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active {
+  background-color: var(--bs-primary) !important;
+  border-color: var(--bs-primary) !important;
+  color: white !important;
+}
+
+.text-primary {
+  color: var(--bs-primary) !important;
+}
+
+.border-primary {
+  border-color: var(--bs-primary) !important;
+}
+
+.navbar-brand {
+  color: var(--bs-primary) !important;
+}
+
+.navbar-brand:hover {
+  color: var(--cafe-brown) !important;
+}
+
+/* Card Styling */
+.card {
+  border-radius: 15px !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+  border: none !important;
+}
+
+.card-header {
+  background-color: var(--bs-primary) !important;
+  border-radius: 15px 15px 0 0 !important;
+  color: white !important;
+  border: none !important;
+}
+
+/* Page Backgrounds */
+.hero-section {
+  background: linear-gradient(135deg, var(--cafe-cream) 0%, var(--accent-color) 100%) !important;
+  min-height: 100vh;
+}
+
+.auth-page {
+  background: linear-gradient(135deg, var(--bs-primary) 0%, var(--bs-secondary) 100%) !important;
+}
+
+.bg-light {
+  background-color: var(--cafe-cream) !important;
+}
+
+/* Interactive Elements */
+.form-control:focus {
+  border-color: var(--bs-primary) !important;
+  box-shadow: 0 0 0 0.2rem rgba(139, 69, 19, 0.25) !important;
+}
+
+.form-select:focus {
+  border-color: var(--bs-primary) !important;
+  box-shadow: 0 0 0 0.2rem rgba(139, 69, 19, 0.25) !important;
+}
+
+/* Tables */
+.table-hover tbody tr:hover {
+  background-color: var(--cafe-cream) !important;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) > td {
+  background-color: rgba(245, 245, 220, 0.3) !important;
+}
+
+/* Badges */
+.badge {
+  border-radius: 20px !important;
+}
+
+.badge.bg-success {
+  background-color: var(--bs-success) !important;
+}
+
+.badge.bg-warning {
+  background-color: var(--bs-warning) !important;
+}
+
+.badge.bg-danger {
+  background-color: var(--bs-danger) !important;
+}
+
+/* Navigation */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+}
+
+.navbar-nav .nav-link {
+  color: var(--bs-primary) !important;
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--cafe-brown) !important;
+}
+
+/* Hover Effects */
+.amenity-card:hover, .menu-item-card:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Admin specific */
+.text-danger {
+  color: var(--bs-primary) !important;
+}
+
+.btn-danger {
+  background-color: var(--bs-primary) !important;
+  border-color: var(--bs-primary) !important;
+}
+
+.btn-danger:hover {
+  background-color: var(--cafe-brown) !important;
+  border-color: var(--cafe-brown) !important;
+}
+
+/* Links */
+a {
+  color: var(--bs-primary) !important;
+}
+
+a:hover {
+  color: var(--cafe-brown) !important;
+}

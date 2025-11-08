@@ -1,0 +1,247 @@
+/* Custom Styles for Café Delight */
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  min-height: 100vh;
+}
+
+.hero-content {
+  position: relative;
+}
+
+.hero-text h1 {
+  color: #2c3e50;
+  font-weight: 700;
+}
+
+.hero-text .text-primary {
+  color: #8b4513 !important;
+}
+
+.hero-buttons .btn {
+  border-radius: 50px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.hero-buttons .btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.hero-image img {
+  border-radius: 20px;
+  transition: transform 0.3s ease;
+}
+
+.hero-image img:hover {
+  transform: scale(1.02);
+}
+
+/* Gallery Styles */
+.gallery-card {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.gallery-card:hover {
+  transform: translateY(-10px);
+}
+
+.gallery-image-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.gallery-image {
+  height: 250px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.gallery-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.gallery-card:hover .gallery-overlay {
+  opacity: 1;
+}
+
+.gallery-card:hover .gallery-image {
+  transform: scale(1.1);
+}
+
+/* Amenity Cards */
+.amenity-card {
+  transition: all 0.3s ease;
+  border-radius: 15px;
+}
+
+.amenity-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.amenity-icon {
+  transition: transform 0.3s ease;
+}
+
+.amenity-card:hover .amenity-icon {
+  transform: scale(1.1);
+}
+
+/* Menu Cards */
+.menu-category-card {
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+}
+
+.menu-category-card:hover {
+  transform: translateY(-5px);
+}
+
+.menu-item {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 15px;
+}
+
+.menu-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.menu-item-name {
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.menu-price {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+/* Contact Section */
+.contact-item {
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.contact-item:last-child {
+  border-bottom: none;
+}
+
+/* Auth Pages */
+.auth-page {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.auth-page .card {
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+}
+
+.auth-page .btn-primary {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: none;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.auth-page .btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.auth-page .form-control {
+  border-radius: 10px;
+  border: 2px solid #e9ecef;
+  transition: all 0.3s ease;
+}
+
+.auth-page .form-control:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+}
+
+/* CTA Section */
+.cta-section {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.cta-buttons .btn {
+  border-radius: 50px;
+  font-weight: 600;
+  padding: 12px 30px;
+  transition: all 0.3s ease;
+}
+
+.cta-buttons .btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+/* General Improvements */
+.btn-primary {
+  background-color: #8b4513;
+  border-color: #8b4513;
+}
+
+.btn-primary:hover {
+  background-color: #6d3410;
+  border-color: #6d3410;
+}
+
+.text-primary {
+  color: #8b4513 !important;
+}
+
+.bg-primary {
+  background-color: #8b4513 !important;
+}
+
+/* Card Hover Effects */
+.card {
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-text h1 {
+    font-size: 2.5rem;
+  }
+  
+  .hero-buttons {
+    text-align: center;
+  }
+  
+  .hero-buttons .btn {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .gallery-image {
+    height: 200px;
+  }
+}
