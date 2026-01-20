@@ -1,4 +1,4 @@
-# Cafe Booking System
+# Cafe Reservation System
 
 A complete full-stack table reservation system built with React, Node.js, Express, and MySQL.
 
@@ -108,7 +108,7 @@ npm run dev
 ## Project Structure
 
 ```
-table-booking-system/
+cafe-reservation-system/
 ├── backend/
 │   ├── config/
 │   ├── controllers/
