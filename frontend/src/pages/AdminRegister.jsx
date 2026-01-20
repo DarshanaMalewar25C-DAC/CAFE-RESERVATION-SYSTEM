@@ -105,7 +105,7 @@ const AdminRegister = () => {
                     />
                     <Form.Text className="text-muted">
                       Admin token is required to register as an administrator<br/>
-                      <small className="text-info">Hint: Use "ADMIN2024" as the admin token</small>
+                     {/* <small className="text-info">Hint: Use "ADMIN2024" as the admin token</small>*/}
                     </Form.Text>
                   </Form.Group>
                   
