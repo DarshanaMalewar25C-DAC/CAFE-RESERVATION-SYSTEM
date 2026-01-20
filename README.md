@@ -1,4 +1,4 @@
-# Table Booking System
+# Cafe Booking System
 
 A complete full-stack table reservation system built with React, Node.js, Express, and MySQL.
 
