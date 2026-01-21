@@ -1,6 +1,6 @@
 # Cafe Reservation System
 
-A complete full-mern table reservation system built with React, Node.js, Express, and MySQL.
+A complete full-mern stack table reservation system built with React, Node.js, Express, and MySQL.
 
 ## Features
 
